@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "instarecog"
+version = "0.1.0"
+description = "Person identification via Instagram-based face detection"
+authors = ["joshbarbee <joshbarbee1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+online-triplet-loss = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
